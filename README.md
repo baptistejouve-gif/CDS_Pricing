@@ -1,22 +1,34 @@
 # CDS Pricing Streamlit
 
-Application Streamlit interactive pour la valorisation simplifiée d’un Credit Default Swap (CDS) et l’analyse du risque de crédit.
+Interactive Streamlit application for simplified valuation of a Credit Default Swap (CDS) and credit risk analysis.
 
 ## Description
 
-Ce projet permet de calculer le Mark-to-Market simplifié d’un CDS à partir de paramètres de marché choisis par l’utilisateur :
+This project calculates the simplified Mark-to-Market of a CDS using market parameters chosen by the user:
 
-- Notionnel
-- Spread de crédit
-- Taux de recouvrement
-- Taux sans risque
-- Maturité
+- Notional
+- Credit spread
+- Recovery rate
+- Risk-free rate
+- Maturity
 
-L’application affiche également :
+The application also displays:
 
-- Le taux de hasard implicite
-- La valeur actuelle de la prime
-- La valeur actuelle de la protection
-- Le Mark-to-Market pour l’acheteur du CDS
-- Les courbes de survie et de défaut du produit
-- Un échéancier détaillé des cashflows
+- The implied hazard rate
+- The present value of the premium leg
+- The present value of the protection leg
+- The Mark-to-Market for the CDS buyer
+- The survival and default curves of the product
+- A detailed cashflow schedule
+
+# Launch the Application
+
+1. Open a Python environment (VS Code, Anaconda Prompt, or Terminal).
+
+2. Install the dependencies:
+
+pip install -r requirements.txt
+
+3. Launch the application:
+
+streamlit run app.py
