@@ -21,7 +21,7 @@ The application also displays:
 - The survival and default curves of the product
 - A detailed cashflow schedule
 
-# Launch the Application
+## Installation
 
 ```bash
 pip install -r requirements.txt
