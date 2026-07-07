@@ -1,4 +1,4 @@
-# CDS Pricing Streamlit
+# CDS Pricing
 
 Interactive Streamlit application for simplified valuation of a Credit Default Swap (CDS) and credit risk analysis.
 
